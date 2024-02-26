@@ -1,0 +1,9 @@
+{
+	"name": "data-fact-infra-arch-ch",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "364f0140-48f8-4475-9a22-984d004aeb00",
+		"tenantId": "da9a94b6-4681-49bc-bd7c-bab9eac0ad3c"
+	}
+}
