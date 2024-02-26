@@ -1,0 +1,33 @@
+{
+	"name": "SourceDataset_s8i",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Twitter_Data.csv",
+				"container": "my-container"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "clean_text",
+				"type": "String"
+			},
+			{
+				"name": "category",
+				"type": "String"
+			}
+		]
+	}
+}
